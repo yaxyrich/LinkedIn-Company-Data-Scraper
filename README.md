@@ -36,9 +36,10 @@ To run this project, you will need to add the following environment variables to
   pip install -r requirements.txt
   ```
 * In "variables.py", upate the following paths:  
-  a. `chrome_driver_path`
-  - update it to the path of the "chromedriver.exe" in your project folder  
-  - In case the chromedriver does not work, you can always download it again from "https://googlechromelabs.github.io/chrome-for-testing/"  
+  a. `chrome_driver_path`  
+  - update it to the path of the "chromedriver.exe" in your project folder
+  - In case the chromedriver does not work, you can always download it again from "https://googlechromelabs.github.io/chrome-for-testing/"
+    
   b. `excel_file_path`  
   - update it to the path of your excel source file  
   - make sure in your source file, the list of companies are located under the header "Company"

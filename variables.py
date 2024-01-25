@@ -6,6 +6,8 @@ load_dotenv()
 my_username = os.environ['LINKEDIN_USERNAME']
 my_password = os.environ['LINKEDIN_PASSWORD']
 
-file_name = 'results.csv' # file where the results will be saved
+# Your chromedriver location goes here:
+chrome_driver_path = r"C:\Users\ylin\OneDrive - Fiera Capital Corporation\Desktop\project\chromedriver.exe"
 
-query = 'https://www.linkedin.com/company/amag-inc/'
+# Your excel file path goes here:
+excel_file_path = r"C:\Users\ylin\OneDrive - Fiera Capital Corporation\Desktop\project\tester.xlsx"
